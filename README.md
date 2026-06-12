@@ -6,7 +6,19 @@
 | :-: | :-: |
 | `O0001 abolish` | `O0062 ambulance` |
 
-**Demo（CET-6）**：[下载 PDF →](https://github.com/<you>/vocab-book-gen/releases/latest)（约 146 MB，2035 组，大学英语六级词汇）
+**Demo（CET-6）**：可去release下载我制作的cet6词汇书
+
+---
+
+## 预览
+
+| 封面 | 中英对照表 |
+| :-: | :-: |
+| <img src="data/preview/cover.png" width="340" /> | <img src="data/preview/quiz.png" width="340" /> |
+
+| 词条页示例 |
+| :-: |
+| <img src="data/preview/entry.png" width="700" /> |
 
 ---
 
@@ -69,8 +81,8 @@ vocab-book-gen/
 ## 快速开始
 
 ```bash
-git clone https://github.com/<you>/vocab-book-gen.git
-cd vocab-book-gen
+git clone https://github.com/1030625431/AI-vocabulary-book-generation.git
+cd AI-vocabulary-book-generation
 python -m venv .venv && source .venv/Scripts/activate    # Windows Git Bash
 pip install -r requirements.txt
 cp .env.example .env
