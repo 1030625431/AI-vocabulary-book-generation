@@ -1,0 +1,12 @@
+# Core deps for text + book builders + DashScope image API
+pandas>=2.0
+requests>=2.31
+python-dotenv>=1.0
+Pillow>=10.0
+xlrd>=2.0           # only needed by scripts/group_words.py for legacy .xls input
+openpyxl>=3.1       # for any .xlsx I/O
+
+# Optional, only for local Qwen-Image inference (scripts/images/run_qwen_stream_worker.py)
+# Install separately when you actually want to run on a GPU:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+#   pip install diffusers transformers accelerate safetensors

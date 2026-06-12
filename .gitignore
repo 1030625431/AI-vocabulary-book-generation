@@ -1,0 +1,32 @@
+# Secrets and per-machine config
+.env
+.env.local
+
+# Build artifacts
+build/
+*.pdf
+output/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.eggs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Generated images / large model weights
+data/images/
+data/portrait_assets/
+data/vocab_book_text_raw/
+data/qwen_visual_scenes_raw/
+
+# Logs
+*.log
+nohup.out
